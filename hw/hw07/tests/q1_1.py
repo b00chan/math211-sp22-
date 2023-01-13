@@ -1,0 +1,12 @@
+test = {   'name': 'q1_1',
+    'points': [0, 0, 0, 0, 2, 2],
+    'suites': [   {   'cases': [   {'code': '>>> type(sample_size) == int\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> type(percent_V1) == float or type(percent_V1) == int\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> 100 <= sample_size <= 500\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> 0 <= percent_V1 <= 100\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> sample_size == 318\nTrue', 'hidden': True, 'locked': False},
+                                   {'code': '>>> np.isclose(percent_V1, 66.35220125786164)\nTrue', 'hidden': True, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
