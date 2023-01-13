@@ -1,0 +1,10 @@
+test = {   'name': 'q3_8',
+    'points': [0, 1, 1, 1],
+    'suites': [   {   'cases': [   {'code': '>>> len(new_errors) == 1230\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> int(round(best_line_slope, 1)) == 1\nTrue', 'hidden': True, 'locked': False},
+                                   {'code': '>>> round(best_line_intercept, 1) == 0.2\nTrue', 'hidden': True, 'locked': False},
+                                   {'code': '>>> round(new_errors[10], 1) == 17.1\nTrue', 'hidden': True, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

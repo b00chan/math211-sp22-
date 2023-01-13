@@ -1,0 +1,10 @@
+test = {   'name': 'q3_3',
+    'points': [0, 0, 2, 3],
+    'suites': [   {   'cases': [   {'code': '>>> 0 <= spread_slope < 1\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> spread_intercept > 0\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> np.isclose(spread_slope, 0.95392696822643275)\nTrue', 'hidden': True, 'locked': False},
+                                   {'code': '>>> np.isclose(spread_intercept, 0.22024761654565372)\nTrue', 'hidden': True, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
